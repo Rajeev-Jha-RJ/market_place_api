@@ -1,6 +1,6 @@
 require 'api_constraints'
 
-#demo comment
+#comment for demo to sunil,jofy, vinayak
 
 # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 Rails.application.routes.draw do

@@ -47,5 +47,11 @@ group :development do
   gem 'sqlite3'
 end
 
+group :test do
+  gem "rspec-rails", "~> 3.5"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
